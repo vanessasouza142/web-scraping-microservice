@@ -1,0 +1,11 @@
+pt-BR:
+  activerecord:
+    models:
+      scraped_data: 'Dados Coletados'
+    attributes:
+      scraped_data:
+        task_id: 'Id da tarefa'
+        task_url: 'URL da tarefa'
+        brand: 'Marca'
+        model: 'Modelo'
+        price: 'Preço'

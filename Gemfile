@@ -35,6 +35,15 @@ gem "bootsnap", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 # gem "rack-cors"
 
+# Scraping library to colect website data
+gem 'nokogiri'
+
+# Library that provides bindings for controlling web browsers through the WebDriver protocol.
+gem 'selenium-webdriver'
+
+# A simple HTTP and REST client for Ruby, inspired by the Sinatra microframework style of specifying actions: get, put, post, delete.
+gem 'rest-client'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]

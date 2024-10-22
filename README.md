@@ -1,24 +1,34 @@
-# README
+# Web-scraping-microservice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é um projeto de microserviço de web-scraping. Ele fornece endpoint para realizar scraping/coleta de dados.
 
-Things you may want to cover:
+## Requisitos
 
-* Ruby version
+- **Ruby** 3.2.2
+- **Rails** 7.1.4.1
+- **MySQL** 8.0+
+- **Docker** (opcional, para rodar via Docker)
 
-* System dependencies
+## Instalação
 
-* Configuration
+1. Clone o repositório para o seu computador:
+   > git clone https://github.com/vanessasouza142/web-scraping-microservice.git
+2. Navegue até o diretório do projeto: 
+   > cd web-scraping-microservice
+3. Instale as dependências:
+   > bundle install
+5. Crie e migre o banco de dados MySQL:
+   > rails db:create
+   > rails db:migrate
 
-* Database creation
+## Executando o Servidor
 
-* Database initialization
+1. Inicie o servidor Rails:
+   > rails server -p 3003
 
-* How to run the test suite
+## Documentação
 
-* Services (job queues, cache servers, search engines, etc.)
+A documentação da API desse projeto foi desenvolvida e pode ser acessada através do Postman.
 
-* Deployment instructions
-
-* ...
+1. Acesse a documentação no link abaixo:
+   > https://documenter.getpostman.com/view/23291260/2sAXxY3oEo

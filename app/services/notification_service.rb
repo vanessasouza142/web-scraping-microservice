@@ -2,7 +2,7 @@ class NotificationService
   
   def self.send_notification(task_id, task_url, status, action_done_by_user)
     begin
-      response = RestClient.post("#{ENV['NOTIFICATION_SERVICE_URL']}/api/v1/notification",
+      response = RestClient.post("#{ENV['NOTIFICATION_MICROSERVICE_URL']}/api/v1/notification",
         {
           task_id: task_id,
           task_url: task_url,

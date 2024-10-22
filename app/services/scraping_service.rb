@@ -2,7 +2,7 @@ class ScrapingService
   require 'nokogiri'
   require 'selenium-webdriver'
 
-  SELENIUM_WAIT_TIMEOUT = 90
+  SELENIUM_WAIT_TIMEOUT = 120
 
   def self.scrape_data(url)
     begin
